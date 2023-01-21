@@ -131,13 +131,13 @@ img{
 .bd-container{
   max-width: 100%;
   width: calc(100% - 3rem);
-  margin-left: var(--mb-3);
-  margin-right: var(--mb-3);
+  margin-left: var(--mb-2);
+  margin-right: var(--mb-2);
 }
 
 .bd-grid{
   display: grid;
-  gap: 1.5rem;
+  gap: 1.2rem;
 }
 
 .l-header{
@@ -275,7 +275,7 @@ img{
 
 
 .home__img{
-  width: 380px;
+  width: 300px;
   justify-self: center;
 }
 
