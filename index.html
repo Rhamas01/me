@@ -1,801 +1,364 @@
 <!DOCTYPE html>
-    <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-        <!--========== BOX ICONS ==========-->
-        <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
-
-        <!--========== CSS ==========-->
-        <link rel="stylesheet" href="assets/css/styles.css">
-        
-        
-
-        <title>Las delicias de ken's</title>
-    </head>
-    <body>
-        <!--========== SCROLL TOP ==========-->
-        <a href="#" class="scrolltop" id="scroll-top">
-            <i class='bx bx-up-arrow-alt scrolltop__icon'></i>
-        </a>
-        
-        <!--========== HEADER ==========-->
-        <header class="l-header" id="header">
-            <nav class="nav bd-container">
-                <img href="#" class="nav__logo" src="assets/img/logo.png"></img>
-
-                <div class="nav__menu" id="nav-menu">
-                    <ul class="nav__list">
-                        <li class="nav__item"><a href="#home" class="nav__link active-link">Inicio</a></li>
-                        <li class="nav__item"><a href="#hamburguesas" class="nav__link">HAMBURGUESAS</a></li>
-                        <li class="nav__item"><a href="#perros" class="nav__link">PERROS</a></li>
-                        <li class="nav__item"><a href="#salchipapas" class="nav__link">SALCHIPAPAS</a></li>
-                        <li class="nav__item"><a href="#patacones" class="nav__link">PATACONES</a></li>
-                        <li class="nav__item"><a href="#mazorcada" class="nav__link">MAZORCADA</a></li>
-                        <li class="nav__item"><a href="#mixiao" class="nav__link">MIXIAO</a></li>
-                        <li><i class='bx bx-toggle-left change-theme' id="theme-button"></i></li>
-                    </ul>
-                </div>
-
-                <div class="nav__toggle" id="nav-toggle">
-                    <i class='bx bx-grid-alt'></i>
-                </div>
-            </nav>
-        </header>
-
-        <main class="l-main">
-            <!--========== HOME ==========-->
-            <section class="home" id="home">
-                <div class="home__container bd-container bd-grid"> 
-                    <div class="home__img">
-                        <img src="assets/img/home.png" alt="">
-                    </div>                
-                    <div class="home__data">
-                        <div class="home__img">
-                            <img class="ml-1" src="assets/img/homeB.png" alt="">
-                        </div>
-                    </div>                                          
-                </div>
-            </section>
-
-         <!--========== Category ==========-->
-            <section class="accessory section bd-container" id="decoration">
-                <h2 class="section-title">Categorías</h2>
-                <div class="decoration__container bd-grid">
-                    <div class="decoration__data">
-                        <img src="assets/img/decoration1.png" alt="" class="decoration__img">
-                        <h3 class="decoration__title">HAMBURGUESAS</h3>
-                        <button class="button-productos"> <a href="#hamburguesas">Mira todas las variedades</a>  </button>
-                    </div>
-
-                    <div class="decoration__data">
-                        <img src="assets/img/decoration2.png" alt="" class="decoration__img">
-                        <h3 class="decoration__title">PERROS</h3>
-                        <button class="button-productos"> <a href="#perros">Mira todas las variedades</a>  </button>
-                    </div>
-
-                    <div class="decoration__data">
-                        <img src="assets/img/decoration3.png" alt="" class="decoration__img">
-                        <h3 class="decoration__title">SALCHIPAPAS</h3>
-                        <button class="button-productos"> <a href="#salchipapas">Mira todas las variedades</a>  </button>
-                    </div>
-                    <div class="decoration__data">
-                        <img src="assets/img/decoration4.png" alt="" class="decoration__img">
-                        <h3 class="decoration__title">PATACONES</h3>
-                        <button class="button-productos"> <a href="#patacones">Mira todas las variedades</a>  </button>
-                    </div>
-                    <div class="decoration__data">
-                        <img src="assets/img/decoration6.png" alt="" class="decoration__img">
-                        <h3 class="decoration__title">MAZORCADAS</h3>
-                        <button class="button-productos"> <a href="#mazorcada">Mira todas las variedades</a>  </button>
-                    </div>
-                    <div class="decoration__data">
-                        <img src="assets/img/decoration5.png" alt="" class="decoration__img">
-                        <h3 class="decoration__title">MIXIAO</h3>
-                        <button class="button-productos"> <a href="#mixiao">Mira todas las variedades</a>  </button>
-                    </div>
-                </div>
-            </section>
-
-            <!--========== COMIDAS ==========-->
-            <section class="accessory section bd-container" id="accessory">
-                <!--========== HAMBURGUESAS ==========-->
-                <h2 class="section-title" id="hamburguesas">Burguers</h2>
-                <form action="">
-                <div class="accessory__container bd-grid">
-
-                    
-                    <div class="accessory__content">
-                        <img src="assets/img/accessory1.png" alt="" class="accessory__img">
-                        <h3 class="accessory__title">Burguer</h3>
-                        <span class="accessory__category">Carne artesanal 120gr, lechuga,
-                             tomate, queso doble crema. <br>-</span>
-                        <span class="accessory__preci">$10.000</span>
-                        <div class="checkbox-btn">
-                        <label for="burguer">La Quiero </label>
-                        <input type="checkbox"  value="burguer" id="burguer" name="options" >
-                        </div>
-                        <input type="number" class="cant" value="cantburguer" id="cantburguer" name="numbers"
-                         placeholder="Cantidad"> 
-                        
-                    </div>
-
-
-                    <div class="accessory__content">
-                        <img src="assets/img/accessory1.png" alt="" class="accessory__img">
-                        <h3 class="accessory__title">Burguer Pollo</h3>
-                        <span class="accessory__category">Carne artesanal 120gr, lechuga,
-                             tomate, queso doble crema, pollo desmechado.</span>
-                        <span class="accessory__preci">$12.500</span>
-                        <div class="checkbox-btn">
-                        <label for="burguerPollo">La Quiero </label>
-                        <input type="checkbox"  value="burguerPollo" id="burguerPollo" name="options" >
-                        </div>
-                        <input type="number" class="cant" value="cantburguer" id="cantburguer" name="numbers"
-                         placeholder="Cantidad"> 
-                        
-                    </div>
-
-                    <div class="accessory__content">
-                        <img src="assets/img/accessory1.png" alt="" class="accessory__img">
-                        <h3 class="accessory__title">Burguer Ranchera</h3>
-                        <span class="accessory__category">Carne artesanal 120gr, lechuga,
-                             tomate, queso doble crema, chorizo, jamón y tocineta.</span>
-                        <span class="accessory__preci">$13.500</span>
-                        <div class="checkbox-btn">
-                        <label for="burguerRanchera">La Quiero </label>
-                        <input type="checkbox"  value="burguerRanchera" id="burguerRanchera" name="options" >
-                        </div>
-                        <input type="number" class="cant" value="cantburguer" id="cantburguer" name="numbers"
-                         placeholder="Cantidad">                         
-                    </div>
-
-                    <div class="accessory__content">
-                        <img src="assets/img/accessory1.png" alt="" class="accessory__img">
-                        <h3 class="accessory__title">Burguer Mexicana</h3>
-                        <span class="accessory__category">Carne artesanal 120gr, lechuga,
-                             tomate, queso doble crema, pico de gallo, jalapeños.</span>
-                        <span class="accessory__preci">$12.000</span>
-                        <div class="checkbox-btn">
-                        <label for="burguerMexicana">La Quiero </label>
-                        <input type="checkbox"  value="burguerMexicana" id="burguerMexicana" name="options" >
-                        </div>
-                        <input type="number" class="cant" value="cantburguer" id="cantburguer" name="numbers"
-                         placeholder="Ccantidad">                         
-                    </div>
-
-                    <div class="accessory__content">
-                        <img src="assets/img/accessory1.png" alt="" class="accessory__img">
-                        <h3 class="accessory__title">Doble Carne</h3>
-                        <span class="accessory__category">Doble carne artesanal 240gr, lechuga, tomate,
-                             doble queso chedar, tocineta y jamón.</span>
-                        <span class="accessory__preci">$15.000</span>
-                        <div class="checkbox-btn">
-                        <label for="dobleCarne">La Quiero </label>
-                        <input type="checkbox"  value="dobleCarne" id="dobleCarne" name="options" >
-                        </div>
-                        <input type="number" class="cant" value="cantburguer" id="cantburguer" name="numbers"
-                         placeholder="Cantidad">                         
-                    </div>
-
-                    <div class="accessory__content">
-                        <img src="assets/img/accessory1.png" alt="" class="accessory__img">
-                        <h3 class="accessory__title">Doble CarnePollo</h3>
-                        <span class="accessory__category">Doble carne artesanal 240gr, lechuga, tomate,
-                             doble queso chedar, pollo desmechado.</span>
-                        <span class="accessory__preci">$17.000</span>
-                        <div class="checkbox-btn">
-                        <label for="dobleCarnePollo">La Quiero </label>
-                        <input type="checkbox"  value="dobleCarnePollo" id="dobleCarnePollo" name="options" >
-                        </div>
-                        <input type="number" class="cant" value="cantburguer" id="cantburguer" name="numbers"
-                         placeholder="Cantidad">                         
-                    </div>
-
-                    <div class="accessory__content">
-                        <img src="assets/img/accessory1.png" alt="" class="accessory__img">
-                        <h3 class="accessory__title">Burguer Criolla</h3>
-                        <span class="accessory__category">Carne artesanal 120gr,lechuga,tomate,
-                             queso doble crema, huevo frito y maíz tierno. - <br> -</span>
-                        <span class="accessory__preci">$17.000</span>
-                        <div class="checkbox-btn">
-                        <label for="burguerCriolla">La Quiero </label>
-                        <input type="checkbox"  value="burguerCriolla" id="burguerCriolla" name="options" >
-                        </div>
-                        <input type="number" class="cant" value="cantburguer" id="cantburguer" name="numbers"
-                         placeholder="Cantidad">                         
-                    </div>
-
-                     <div class="accessory__content">
-                        <img src="assets/img/accessory1.png" alt="" class="accessory__img">
-                        <h3 class="accessory__title">Burguer Ken's</h3>
-                        <span class="accessory__category">carne artesanal 150gr,lechuga,tomate,
-                        queso chedar,pollo desmechado, chorizo,tocineta y jamón -gratinado</span>
-                        <span class="accessory__preci">$20.000</span>
-                        <div class="checkbox-btn">
-                        <label for="burguerKens">La Quiero </label>
-                        <input type="checkbox"  value="burguerKens" id="burguerKens" name="options" >
-                        </div>
-                        <input type="number" class="cant" value="burguerKens" id="burguerKens" name="numbers"
-                         placeholder="Cantidad">                         
-                    </div>
-                </div>
-                <!--========== PERROS ==========-->
-                <h2 class="section-title" id="perros">Perros</h2>
-
-                <div class="accessory__container bd-grid"> 
-
-                    <div class="accessory__content">
-                        <img src="assets/img/accessory2.png" alt="" class="accessory__img">
-                        <h3 class="accessory__title">Perro Sencillo</h3>
-                        <span class="accessory__category">Salchicha americana, papa chip,
-                            queso doble crema. <br> <br>-</span>
-                        <span class="accessory__preci">$9.000</span>
-                        <div class="checkbox-btn">
-                        <label for="perroSencillo">Lo Quiero </label>
-                        <input type="checkbox"  value="perroSencillo" id="perroSencillo" name="options" >
-                        </div>
-                        <input type="number" class="cant" value="cantburguer" id="cantburguer" name="numbers"
-                         placeholder="Cantidad"> 
-                        
-                    </div>
-
-                    <div class="accessory__content">
-                        <img src="assets/img/accessory2.png" alt="" class="accessory__img">
-                        <h3 class="accessory__title">Perro Mexicano</h3>
-                        <span class="accessory__category">Salchicha americana, papa chip, queso doble crema,
-                            pico de gallo, maíz tierno, jalapeños y tocineta.</span>
-                        <span class="accessory__preci">$10.000</span>
-                        <div class="checkbox-btn">
-                        <label for="perroMexicano">Lo Quiero </label>
-                        <input type="checkbox"  value="perroMexicano" id="perroMexicano" name="options" >
-                        </div>
-                        <input type="number" class="cant" value="cantburguer" id="cantburguer" name="numbers"
-                         placeholder="Cantidad">                         
-                    </div>
-
-                    <div class="accessory__content">
-                        <img src="assets/img/accessory2.png" alt="" class="accessory__img">
-                        <h3 class="accessory__title">Doble Salchicha</h3>
-                        <span class="accessory__category">2 salchicha americana, papa chip, queso doble crema,
-                             tocineta y jamón. <br><br>-</span>
-                        <span class="accessory__preci">$15.000</span>
-                        <div class="checkbox-btn">
-                        <label for="perroDoble">Lo Quiero </label>
-                        <input type="checkbox"  value="perroDoble" id="perroDoble" name="options" >
-                        </div>
-                        <input type="number" class="cant" value="cantburguer" id="cantburguer" name="numbers"
-                         placeholder="Cantidad">                         
-                    </div>
-
-                    <div class="accessory__content">
-                        <img src="assets/img/accessory2.png" alt="" class="accessory__img">
-                        <h3 class="accessory__title">Perro especial</h3>
-                        <span class="accessory__category">Salchicha americana, papa chip, queso chedar,
-                             carne o pollo desmechado, huevo de codorniz, tocineta y jamón. </span>
-                        <span class="accessory__preci">$13.000</span>
-                        <div class="checkbox-btn">
-                        <label for="perroEspecial">Lo Quiero </label>
-                        <input type="checkbox"  value="perroEspecial" id="perroEspecial" name="options" >
-                        </div>
-                        <input type="number" class="cant" value="cantburguer" id="cantburguer" name="numbers"
-                         placeholder="Cantidad">                         
-                    </div>
-
-                    <div class="accessory__content">
-                        <img src="assets/img/accessory2.png" alt="" class="accessory__img">
-                        <h3 class="accessory__title">Perro Ranchero</h3>
-                        <span class="accessory__category">Salchicha americana, papa chip, queso doble crema,
-                             huevo frito, maíz tierno y jamón. <br> <br>-</span>
-                        <span class="accessory__preci">$14.000</span>
-                        <div class="checkbox-btn">
-                        <label for="perroRanchero">Lo Quiero </label>
-                        <input type="checkbox"  value="perroRanchero" id="perroRanchero" name="options" >
-                        </div>
-                        <input type="number" class="cant" value="cantburguer" id="cantburguer" name="numbers"
-                         placeholder="Cantidad">                         
-                    </div>
-
-                    <div class="accessory__content">
-                        <img src="assets/img/accessory2.png" alt="" class="accessory__img">
-                        <h3 class="accessory__title">Perro Metro</h3>
-                        <span class="accessory__category">30cm de pan, salchicha americana, papa chip, queso chedar,
-                             carne desmechada, pollo desmechado, chorizo y jamón - gratinado </span>
-                        <span class="accessory__preci">$17.000</span>
-                        <div class="checkbox-btn">
-                        <label for="perroMetro">Lo Quiero </label>
-                        <input type="checkbox"  value="perroMetro" id="perroMetro" name="options" >
-                        </div>
-                        <input type="number" class="cant" value="cantburguer" id="cantburguer" name="numbers"
-                         placeholder="Cantidad">                         
-                    </div>
-
-                    <div class="accessory__content">
-                        <img src="assets/img/accessory2.png" alt="" class="accessory__img">
-                        <h3 class="accessory__title">Perro Ken's</h3>
-                        <span class="accessory__category">2 Salchicha americana, papa chip, queso chedar, pollo desmechado, 
-                            carne desmechada, jamón, tocineta, maíz tierno y huevo de codorniz – gratinado. </span>
-                        <span class="accessory__preci">$20.000</span>
-                        <div class="checkbox-btn">
-                        <label for="perroKens">Lo Quiero </label>
-                        <input type="checkbox"  value="perroKens" id="perroKens" name="options" >
-                        </div>
-                        <input type="number" class="cant" value="cantburguer" id="cantburguer" name="numbers"
-                         placeholder="Cantidad">                         
-                    </div>
-
-
-                </div>
-
-                <!--========== SALCHIPAPAS ==========-->
-
-                <h2 class="section-title" id="salchipapas">Salchipapa</h2>
-
-                <div class="accessory__container bd-grid"> 
-
-                    <div class="accessory__content">
-                        <img src="assets/img/accessory3.png" alt="" class="accessory__img">
-                        <h3 class="accessory__title">Salchipapa Sencilla</h3>
-                        <span class="accessory__category">Papa a la francesa, salchicha y queso rayado.
-                         <br>  <br> <br>-</span>
-                        <span class="accessory__preci">$9.000</span>
-                        <div class="checkbox-btn">
-                        <label for="salchipapaSencillo">Lo Quiero </label>
-                        <input type="checkbox"  value="salchipapaSencillo" id="salchipapaSencillo" name="options" >
-                        </div>
-                        <input type="number" class="cant" value="cantburguer" id="cantburguer" name="numbers"
-                         placeholder="Cantidad">                         
-                    </div>
-
-                    <div class="accessory__content">
-                        <img src="assets/img/accessory3.png" alt="" class="accessory__img">
-                        <h3 class="accessory__title">Salchipapa Semi especial</h3>
-                        <span class="accessory__category">Papa a la francesa, salchicha, queso rallado y chorizo. <br>
-                         <br></span>
-                        <span class="accessory__preci">$10.500</span>
-                        <div class="checkbox-btn">
-                        <label for="salchipapaSemiespecial">Lo Quiero </label>
-                        <input type="checkbox"  value="salchipapaSemiespecial" id="salchipapaSemiespecial" name="options" >
-                        </div>
-                        <input type="number" class="cant" value="cantburguer" id="cantburguer" name="numbers"
-                         placeholder="Cantidad">                         
-                    </div>
-
-                    <div class="accessory__content">
-                        <img src="assets/img/accessory3.png" alt="" class="accessory__img">
-                        <h3 class="accessory__title">Salchipapa Especial</h3>
-                        <span class="accessory__category">Papa a la francesa, salchicha, queso rallado,
-                           chorizo, maíz tierno, carne y pollo desmechados y croquetas de pollo. </span>
-                        <span class="accessory__preci">$15.000</span>
-                        <div class="checkbox-btn">
-                        <label for="salchipapaEspecial">Lo Quiero </label>
-                        <input type="checkbox"  value="salchipapaEspecial" id="salchipapaEspecial" name="options" >
-                        </div>
-                        <input type="number" class="cant" value="cantburguer" id="cantburguer" name="numbers"
-                         placeholder="Cantidad">                         
-                    </div>
-
-                    <div class="accessory__content">
-                        <img src="assets/img/accessory3.png" alt="" class="accessory__img">
-                        <h3 class="accessory__title">Salchipapa Ken´s</h3>
-                        <span class="accessory__category">Papa a la francesa, salchicha, queso rallado, chorizo,
-                          maíz tierno, carne y pollo desmechados, tocineta, croquetas de pollo y huevo de codorniz - gratinada </span>
-                        <span class="accessory__preci">$20.000</span>
-                        <div class="checkbox-btn">
-                        <label for="salchipapaKens">Lo Quiero </label>
-                        <input type="checkbox"  value="salchipapaKens" id="salchipapaKens" name="options" >
-                        </div>
-                        <input type="number" class="cant" value="cantburguer" id="cantburguer" name="numbers"
-                         placeholder="Cantidad">                         
-                    </div>
-
-                    <div class="accessory__content">
-                        <img src="assets/img/accessory3.png" alt="" class="accessory__img">
-                        <h3 class="accessory__title">Salchipapa Ken´s Familiar 1</h3>
-                        <span class="accessory__category">Para 3 a 4 personas </span> 
-                        <span class="accessory__preci">$25.000</span>
-                        <div class="checkbox-btn">
-                        <label for="salchipapaKensF1">Lo Quiero </label>
-                        <input type="checkbox"  value="salchipapaKensF1" id="salchipapaKensF1" name="options" >
-                        </div>
-                        <input type="number" class="cant" value="cantburguer" id="cantburguer" name="numbers"
-                         placeholder="Cantidad">                         
-                    </div>
-
-                    <div class="accessory__content">
-                        <img src="assets/img/accessory3.png" alt="" class="accessory__img">
-                        <h3 class="accessory__title">Salchipapa Ken´s Familiar 2</h3>
-                        <span class="accessory__category">Para 5 a 6 personas </span>
-                        <span class="accessory__preci">$30.000</span>
-                        <div class="checkbox-btn">
-                        <label for="salchipapaKensF2">Lo Quiero </label>
-                        <input type="checkbox"  value="salchipapaKensF2" id="salchipapaKensF2" name="options" >
-                        </div>
-                        <input type="number" class="cant" value="cantburguer" id="cantburguer" name="numbers"
-                         placeholder="Cantidad">                         
-                    </div>
-
-                    <div class="accessory__content">
-                        <img src="assets/img/accessory3.png" alt="" class="accessory__img">
-                        <h3 class="accessory__title">Salchipapa Ken´s Familiar 3</h3>
-                        <span class="accessory__category">Para 6 a 8 personas </span>
-                        <span class="accessory__preci">$35.000</span>
-                        <div class="checkbox-btn">
-                        <label for="salchipapaKensF3">Lo Quiero </label>
-                        <input type="checkbox"  value="salchipapaKensF3" id="salchipapaKensF3" name="options" >
-                        </div>
-                        <input type="number" class="cant" value="cantburguer" id="cantburguer" name="numbers"
-                         placeholder="Cantidad">                         
-                    </div>
-
-                </div>
-
-
-
-                 <!--========== PATACONES ==========-->
-
-                 <h2 class="section-title" id="patacones">Patacones</h2>
-
-                 <div class="accessory__container bd-grid"> 
- 
-                     <div class="accessory__content">
-                         <img src="assets/img/accessory4.png" alt="" class="accessory__img">
-                         <h3 class="accessory__title">Patacon Sencillo</h3>
-                         <span class="accessory__category">Carne y pollo desmechado, salchicha americana,
-                             lechuga y maíz tierno – gratinado
-                          </span>
-                         <span class="accessory__preci">$15.000</span>
-                         <div class="checkbox-btn">
-                         <label for="pataconSencillo">Lo Quiero </label>
-                         <input type="checkbox"  value="pataconSencillo" id="pataconSencillo" name="options" >
-                         </div>
-                         <input type="number" class="cant" value="cantburguer" id="cantburguer" name="numbers"
-                          placeholder="Cantidad">                         
-                     </div>
- 
-                     <div class="accessory__content">
-                         <img src="assets/img/accessory4.png" alt="" class="accessory__img">
-                         <h3 class="accessory__title">Patacon Ken's</h3>
-                         <span class="accessory__category">Carne y pollo desmechado, salchicha americana, lechuga,
-                             jamón, tocineta, croquetas de pollo y maíz tierno – gratinado
-                         </span>
-                         <span class="accessory__preci">$20.000</span>
-                         <div class="checkbox-btn">
-                         <label for="pataconKens">Lo Quiero </label>
-                         <input type="checkbox"  value="pataconKens" id="pataconKens" name="options" >
-                         </div>
-                         <input type="number" class="cant" value="cantburguer" id="cantburguer" name="numbers"
-                          placeholder="Cantidad">                         
-                     </div>
- 
-                     <div class="accessory__content">
-                         <img src="assets/img/accessory4.png" alt="" class="accessory__img">
-                         <h3 class="accessory__title">Canasta de patacon ahogado</h3>
-                         <span class="accessory__category">Pollo y carne desmechado con ahogado. </span>
-                         <span class="accessory__preci">$10.000</span>
-                         <div class="checkbox-btn">
-                         <label for="canastaPataconAhogado">Lo Quiero </label>
-                         <input type="checkbox"  value="canastaPataconAhogado" id="canastaPataconAhogado" name="options" >
-                         </div>
-                         <input type="number" class="cant" value="cantburguer" id="cantburguer" name="numbers"
-                          placeholder="Cantidad">                         
-                     </div> 
-
-                     <div class="accessory__content">
-                        <img src="assets/img/accessory4.png" alt="" class="accessory__img">
-                        <h3 class="accessory__title">Canasta de patacon Gratinado</h3>
-                        <span class="accessory__category">Pollo y carne desmechado gratinado. </span>
-                        <span class="accessory__preci">$15.000</span>
-                        <div class="checkbox-btn">
-                        <label for="canastaPataconGratinado">Lo Quiero </label>
-                        <input type="checkbox"  value="canastaPataconGratinado" id="canastaPataconGratinado" name="options" >
-                        </div>
-                        <input type="number" class="cant" value="cantburguer" id="cantburguer" name="numbers"
-                         placeholder="Cantidad">                         
-                    </div> 
-
- 
-                     
-                 </div>
-                <!--========== MAZORCADAS ==========-->
-
-                <h2 class="section-title" id="mazorcada">Mazorcadas</h2>
-
-                <div class="accessory__container bd-grid"> 
-
-                    <div class="accessory__content">
-                        <img src="assets/img/accessory6.png" alt="" class="accessory__img">
-                        <h3 class="accessory__title">Mazorcada Mixta</h3>
-                        <span class="accessory__category">Carne y pollo desmechados, salchicha americana,
-                             maíz tierno, chorizo, jamón, queso rallado y lechuga</span>
-                        <span class="accessory__preci">$15.000</span>
-                        <div class="checkbox-btn">
-                        <label for="mazorcadaMixta">Lo Quiero </label>
-                        <input type="checkbox"  value="mazorcadaMixta" id="mazorcadaMixta" name="options" >
-                        </div>
-                        <input type="number" class="cant" value="cantburguer" id="cantburguer" name="numbers"
-                         placeholder="Cantidad">                         
-                    </div>
-
-                    <div class="accessory__content">
-                        <img src="assets/img/accessory6.png" alt="" class="accessory__img">
-                        <h3 class="accessory__title">Mazorcada Ken's</h3>
-                        <span class="accessory__category">Carne y pollo desmechados, salchicha americana,
-                             maíz tierno, chorizo, jamón, queso rallado, lechuga, tocineta y croquetas de pollo – gratinado <br>
-                         <br></span>
-                        <span class="accessory__preci">$20.000</span>
-                        <div class="checkbox-btn">
-                        <label for="mazorcadaKens">Lo Quiero </label>
-                        <input type="checkbox"  value="mazorcadaKens" id="mazorcadaKens" name="options" >
-                        </div>
-                        <input type="number" class="cant" value="cantburguer" id="cantburguer" name="numbers"
-                         placeholder="Cantidad">                         
-                    </div>
-                    
-                    <div class="accessory__content">
-                        <img src="assets/img/accessory6.png" alt="" class="accessory__img">
-                        <h3 class="accessory__title">Mazorcada Ken´s Familiar 1</h3>
-                        <span class="accessory__category">Para 3 a 4 personas </span> 
-                        <span class="accessory__preci">$25.000</span>
-                        <div class="checkbox-btn">
-                        <label for="mazorcadaKensF1">Lo Quiero </label>
-                        <input type="checkbox"  value="mazorcadaKensF1" id="mazorcadaKensF1" name="options" >
-                        </div>
-                        <input type="number" class="cant" value="cantburguer" id="cantburguer" name="numbers"
-                         placeholder="Cantidad">                         
-                    </div>
-
-                    <div class="accessory__content">
-                        <img src="assets/img/accessory6.png" alt="" class="accessory__img">
-                        <h3 class="accessory__title">Mazorcada Ken´s Familiar 2</h3>
-                        <span class="accessory__category">Para 5 a 6 personas </span>
-                        <span class="accessory__preci">$30.000</span>
-                        <div class="checkbox-btn">
-                        <label for="mazorcadaKensF2">Lo Quiero </label>
-                        <input type="checkbox"  value="mazorcadaKensF2" id="mazorcadaKensF2" name="options" >
-                        </div>
-                        <input type="number" class="cant" value="cantburguer" id="cantburguer" name="numbers"
-                         placeholder="Cantidad">                         
-                    </div>
-
-                    <div class="accessory__content">
-                        <img src="assets/img/accessory6.png" alt="" class="accessory__img">
-                        <h3 class="accessory__title">Mazorcada Ken´s Familiar 3</h3>
-                        <span class="accessory__category">Para 6 a 8 personas </span>
-                        <span class="accessory__preci">$35.000</span>
-                        <div class="checkbox-btn">
-                        <label for="mazorcadaKensF3">Lo Quiero </label>
-                        <input type="checkbox"  value="mazorcadaKensF3" id="mazorcadaKensF3" name="options" >
-                        </div>
-                        <input type="number" class="cant" value="cantburguer" id="cantburguer" name="numbers"
-                         placeholder="Cantidad">                         
-                    </div>
-
-                </div>
-
-
-                <!--========== MIXIAO ==========-->
-
-                <h2 class="section-title" id="mixiao">Mixiao</h2>
-
-                <div class="accessory__container bd-grid"> 
-
-                    <div class="accessory__content">
-                        <img src="assets/img/accessory7.png" alt="" class="accessory__img">
-                        <h3 class="accessory__title">Mixiao</h3>
-                        <span class="accessory__category">Papa a la francesa, yuca frita, papa criolla,
-                             croquetas de pollo, chorizo, costilla de cerdo acompañado de salsa de tocineta,
-                             salsa de ajo y salsa de maíz.</span>
-                        <span class="accessory__preci">$15.000</span>
-                        <div class="checkbox-btn">
-                        <label for="mixiao">Lo Quiero </label>
-                        <input type="checkbox"  value="mixiao" id="mixiao" name="options" >
-                        </div>
-                        <input type="number" class="cant" value="cantburguer" id="cantburguer" name="numbers"
-                         placeholder="Cantidad">                         
-                    </div>                   
-                    
-                    <div class="accessory__content">
-                        <img src="assets/img/accessory7.png" alt="" class="accessory__img">
-                        <h3 class="accessory__title">Mixiao Familiar 1</h3>
-                        <span class="accessory__category">Para 3 a 4 personas </span> 
-                        <span class="accessory__preci">$25.000</span>
-                        <div class="checkbox-btn">
-                        <label for="mixiaoF1">Lo Quiero </label>
-                        <input type="checkbox"  value="mixiaoF1" id="mixiaoF1" name="options" >
-                        </div>
-                        <input type="number" class="cant" value="cantburguer" id="cantburguer" name="numbers"
-                         placeholder="Cantidad">                         
-                    </div>
-
-                    <div class="accessory__content">
-                        <img src="assets/img/accessory7.png" alt="" class="accessory__img">
-                        <h3 class="accessory__title">Mixiao Familiar 2</h3>
-                        <span class="accessory__category">Para 5 a 6 personas </span>
-                        <span class="accessory__preci">$30.000</span>
-                        <div class="checkbox-btn">
-                        <label for="mixiaoF2">Lo Quiero </label>
-                        <input type="checkbox"  value="mixiaoF2" id="mixiaoF2" name="options" >
-                        </div>
-                        <input type="number" class="cant" value="cantburguer" id="cantburguer" name="numbers"
-                         placeholder="Cantidad">                         
-                    </div>
-
-                    <div class="accessory__content">
-                        <img src="assets/img/accessory7.png" alt="" class="accessory__img">
-                        <h3 class="accessory__title">Mixiao Familiar 3</h3>
-                        <span class="accessory__category">Para 6 a 8 personas </span>
-                        <span class="accessory__preci">$35.000</span>
-                        <div class="checkbox-btn">
-                        <label for="mazorcadaKensF3">Lo Quiero </label>
-                        <input type="checkbox"  value="mixiaoF3" id="mixiaoF3" name="options" >
-                        </div>
-                        <input type="number" class="cant" value="cantburguer" id="cantburguer" name="numbers"
-                         placeholder="Cantidad">                         
-                    </div>
-
-                </div>
-
-
-                    <br>
-                    <button class="button" type="button" onclick="showValues()">Mostrar Orden</button>                  
-                    <div id="output" value="showValues()"></div> <br> 
-                    <button class="button" type="button" onclick="resetValues()">Limpiar Orden</button>
-                    <div>
-                      <h3>Nota:</h3>
-                      <p>Cada producto en combo tiene un costo de $7.000
-                        El perro o la hamburguesa se puede escoger con cebolla normal o caramelizada</p> 
-                    </div>
-                         
-                </form>
-                 
-                <script>
-                    function showValues() {
-                    var checkboxes = document.getElementsByName("options");
-                    var selected = [];
-                      for (var i = 0; i < checkboxes.length; i++) {
-                       if (checkboxes[i].checked) {
-                         selected.push(checkboxes[i].value);
-                       }
-                    }
-  
-                    var numbers = document.getElementsByName("numbers");
-                    var values = [];
-                    for (var i = 0; i < numbers.length; i++) {
-                      if (numbers[i].value !== "" && numbers[i].value !== null) {
-                      values.push(numbers[i].value);
-                    }
-                    }
-                    document.getElementById("output").innerHTML = "*Comidas: <br/> " + selected.join(", ") + 
-                    "<br/>*" + "Cantidades: <br/> " + values.join(", ");
-                    }
-
-                    function resetValues() {
-                    var checkboxes = document.getElementsByName("options");
-                    for (var i = 0; i < checkboxes.length; i++) {
-                    checkboxes[i].checked = false;
-                    }
-  
-                    var numbers = document.getElementsByName("numbers");
-                    for (var i = 0; i < numbers.length; i++) {
-                    numbers[i].value = "";
-                    }
-  
-                    document.getElementById("output").innerHTML = "";
-                    }
-                </script>  
-                <!--========== FRMULARIO WHATSAPP==========-->
-                <div class="accessory__container"> <br>
-                    <h3>Termina tu pedido</h3>
-                    <div class="w-full max-w-xs">
-                      <form id="form" class="">
-                          <div class="mb-4">
-                              <label class="label" for="name">
-                                  Nombre
-                              </label>
-                              <input
-                                  class=""
-                                  name="name" id="name" type="text" placeholder="Nombre" required>
-                          </div>
-                          <div class="mb-4">
-                              <label class="" for="name">
-                                 Dirección
-                              </label>
-                              <input
-                                  class=""
-                                  name="lastname" id="lastname" type="text" placeholder="Ingresa tu Dirección" required>
-                          </div>
-                          <div class="mb-4">
-                              <label class="" for="name">
-                                  Forma de pago
-                              </label>
-                              <select name="select" id="email" placeholder="Selecciona un metodo" required>
-                                  <option value="efectivo">Efectivo</option>
-                                  <option value="nequiDaviplata">Nequi/Daviplata</option>
-                                  <option value="tarjeta">Tarjeta</option>
-                               </select>
-             
-                          </div>
-                          <div class="flex items-center justify-between">
-                              <button class="button" id="submit"
-                                  class="bg-green-500 hover:bg-green-700 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline"
-                                  type="submit">
-                                  <i class="fab fa-whatsapp"></i> Ordenar por WhatsApp
-                              </button>
-                          </div>
-                      </form>
-                      <p class="">
-                          <H1>Gracias por elegirnos</H1>
-                      </p>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="Start your development with FoodHut landing page.">
+    <meta name="author" content="Devcrud">
+    <title>Amor y Luz | Prosperidad para tu vida</title>
+   
+    <!-- font icons -->
+    <link rel="stylesheet" href="assets/vendors/themify-icons/css/themify-icons.css">
+
+    <link rel="stylesheet" href="assets/vendors/animate/animate.css">
+
+    <!-- Bootstrap + FoodHut main styles -->
+	<link rel="stylesheet" href="assets/css/foodhut.css">
+</head>
+<body data-spy="scroll" data-target=".navbar" data-offset="40" id="home">
     
-                      <!--========== JS ==========-->
-            <script src="assets/js/helpers.js"></script>
-            <script src="assets/js/whatsapp.js"></script>
-            <script src="https://kit.fontawesome.com/1e268974cb.js" crossorigin="anonymous"></script>
+    <!-- Navbar -->
+    <nav class="custom-navbar navbar navbar-expand-lg navbar-dark fixed-top" data-spy="affix" data-offset-top="10">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="#home">Inicio</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#about">Nosotros</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#gallary">Consulta</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#book-table"></a>
+                </li>
+            </ul>
+            <a class="navbar-brand m-auto" href="#">
+                <img src="assets/imgs/logo.png" class="brand-img" alt="">
+                <span class="brand-txt">Amor y Luz</span>
+            </a>
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="#blog">Servicios<span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#testmonial">Testinonios</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#contact">Contacto</a>
+                </li>
+                <li class="nav-item">
+                    <a href="https://api.whatsapp.com/send?phone=18103601459&text=" class="btn btn-primary ml-xl-4">Whatsapp</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <!-- header -->
+    <header id="home" class="header">
+        <div class="overlay text-white text-center">
+            <h1 class="display-2 font-weight-bold my-3">Amarres de Amor</h1>
+            <h2 class="display-4 mb-5">Trae esa persona deseada a tu vida</h2>
+            <a class="btn btn-lg btn-primary" href="#gallary">Pedir consulta</a>
+        </div>
+    </header>
+
+    <!--  About Section  -->
+    <div id="about" class="container-fluid wow fadeIn" id="about"data-wow-duration="1.5s">
+        <div class="row">
+            <div class="col-lg-6 has-img-bg"></div>
+            <div class="col-lg-6">
+                <div class="row justify-content-center">
+                    <div class="col-sm-8 py-5 my-5">
+                        <h2 class="mb-4">Consultas Personales y Asesoramiento Espiritual:</h2>
+                        <p>Nuestro equipo de expertos esotéricos está aquí para brindarte apoyo
+                             y orientación en tu viaje espiritual. Ya sea que necesites resolver
+                              dudas, recibir asesoramiento amoroso o encontrar soluciones a tus problemas,
+                               nuestras consultas personales te ayudarán a encontrar la paz interior y la armonía.
+                             <br> <br>
+                             Compartimos rituales simples y significativos que puedes realizar para atraer el amor a tu
+                              vida o fortalecer los lazos existentes.
+                            <br> <br>
+                            Descubre cómo nuestros servicios de amarres de amor, rituales de prosperidad y otros hechizos
+                             pueden ayudarte a alcanzar la felicidad y la plenitud que mereces.
+                        </p>
                     </div>
-                    </div>
-            </section>
-
-
-             
-
-
-              
-       
-            <!--========== personaliza ==========-->
-            <section class="send_section">
-                <div class="send__container bd-container bd-grid">
-                    <div class="send__img">
-                        <img src="assets/img/send.png" alt="">
-                    </div>
-                </div>
-            </section>
-        </main>
-
-        <!--========== FOOTER ==========-->
-        <footer class="footer section">
-            <div class="footer__container bd-container bd-grid">
-                <div class="footer__content">
-                    <h3 class="footer__title">
-                        <a href="#" class="footer__logo">Promociones del mes</a>
-                    </h3>
-                    <p class="footer__description">Mrjores Hamburguesas <br> Perros calientes</p>
-                </div>
-
-                <div class="footer__content">
-                    <h3 class="footer__title">Nuestros servicios</h3>
-                    <ul>
-                        <li><a href="#" class="footer__link">Fabricación</a></li>
-                        <li><a href="#" class="footer__link">Servicio de Diseño</a></li>
-                        <li><a href="#" class="footer__link">Shipping mode</a></li>
-                    </ul>
-                </div>
-
-                <div class="footer__content">
-                    <h3 class="footer__title">Nuestra compañia</h3>
-                    <ul>
-                        <li><a href="#" class="footer__link">Quienes somos</a></li>
-                        <li><a href="#" class="footer__link">Trayecto</a></li>
-                        <li><a href="#" class="footer__link">profesionales</a></li>
-                    </ul>
-                </div>
-
-                <div class="footer__content">
-                    <h3 class="footer__title">Social</h3>
-                    <a href="#" class="footer__social"><i class='bx bxl-facebook-circle '></i></a>
-                    <a href="#" class="footer__social"><i class='bx bxl-twitter'></i></a>
-                    <a href="#" class="footer__social"><i class='bx bxl-instagram-alt'></i></a>
                 </div>
             </div>
+        </div>
+    </div>
 
-            <p class="footer__copy">&#169; 2022 Diseño y desarrollo. All right reserved Rafael Moreno</p>
-        </footer>
 
-        <!--========== SCROLL REVEAL ==========-->
-        <script src="https://unpkg.com/scrollreveal"></script>
 
-        <!--========== MAIN JS ==========-->
-        <script src="assets/js/main.js"></script>
-    </body>
+    <!-- book a table Section  -->
+    <div  class="container-fluid has-bg-overlay text-center text-light has-height-lg middle-items" id="book-table">
+      <form action="">
+        <div id="gallary" class="">
+            <h2 class="section-title mb-5">Separa tu cita</h2>
+            <div class="row mb-5">
+                <div id="datos1" class="col-sm-6 col-md-3 col-xs-12 my-2">
+                    <input type="text" id="booktable" class="form-control form-control-lg custom-form-control" placeholder="NOMBRE">
+                </div>
+                <div id="datos2" class="col-sm-6 col-md-3 col-xs-12 my-2">
+                    <input type="number" id="booktable" class="form-control form-control-lg custom-form-control" placeholder="CELULAR" max="20" min="0">
+                </div>
+                <div id="datos3" class="col-sm-6 col-md-3 col-xs-12 my-2">
+                    <input type="email" id="booktable" class="form-control form-control-lg custom-form-control" placeholder="EMAIL">
+                </div>
+                <div id="datos4" class="col-sm-6 col-md-3 col-xs-12 my-2">
+                    <input type="select" id="booktable" class="form-control form-control-lg custom-form-control" placeholder="SERVICIO">
+                    <option value="1"></option>
+                    <option value="2"></option>
+                </div>
+            </div>
+            <button href="https://api.whatsapp.com/send?phone=18103601459&text=" class="btn btn-lg btn-primary" id="submit">Enviar solicitud</button>
+        </div>
+    </form>
+    </div>
+
+    <script>
+        const $form = document.querySelector('#form');
+const buttonSubmit = document.querySelector('#submit');
+const urlDesktop = 'https://web.whatsapp.com/';
+const urlMobile = 'whatsapp://';
+const phone = '18103601459';
+
+
+$form.addEventListener('submit', (event) => {
+    event.preventDefault()
+    buttonSubmit.innerHTML = '<i class="fas fa-circle-notch fa-spin"></i>'
+    buttonSubmit.disabled = true
+
+    setTimeout(() => {
+        let output = document.querySelector('#datos1').value
+        let name = document.querySelector('#datos2').value
+        let lastname = document.querySelector('#datos3').value
+        let email = document.querySelector('#datos4').value
+        let message = 'send?phone=' + phone +
+         '&text=*_Formulario_*%0A*Contacto*%0A%0A*¿Cual es tu nombre?*%0A' + name +
+          '%0A*_Direccion_*%0A' + lastname + '%0A*_forma de pago_*%0A' + email + '' +
+          '%0A*_Pedido_*%0A' + output + ''
+
+
+        if (isMobile()) {
+            window.open(urlMobile + message, '_blank')
+        } else {
+            window.open(urlDesktop + message, '_blank')
+        }
+
+        buttonSubmit.innerHTML = '<i class="fab fa-whatsapp"></i> Enviar WhatsApp'
+        buttonSubmit.disabled = false
+
+    }, 4000);
+
+});
+
+    </script>
+
+    
+
+    <!-- BLOG Section  -->
+    <div id="blog" class="container-fluid bg-dark text-light py-5 text-center wow fadeIn">
+        <h2 class="section-title py-5">Servicios</h2>
+        <div class="row justify-content-center">
+            <div class="col-sm-7 col-md-4 mb-5">
+                <ul class="nav nav-pills nav-justified mb-3" id="pills-tab" role="tablist">
+                    <li class="nav-item">
+                        <a class="nav-link active" id="pills-home-tab" data-toggle="pill" href="#foods" role="tab" aria-controls="pills-home" aria-selected="true">Rituales</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" id="pills-profile-tab" data-toggle="pill" href="#juices" role="tab" aria-controls="pills-profile" aria-selected="false">Posiones</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="tab-content" id="pills-tabContent">
+            <div class="tab-pane fade show active" id="foods" role="tabpanel" aria-labelledby="pills-home-tab">
+                <div class="row">
+                    <div class="col-md-4">
+                        <div class="card bg-transparent border my-3 my-md-0">
+                            <img src="assets/imgs/ritual.jpg" alt="http://www.amoryluz.com/" class="rounded-0 card-img-top mg-responsive">
+                            <div class="card-body">
+                                <h1 class="text-center mb-4"><a href="#" class="badge badge-primary">$10 consulta</a></h1>
+                                <h4 class="pt20 pb20">Amarres de Amor Efectivos</h4>
+                                <p class="text-white">Nuestros expertos en magia blanca te ofrecen poderoso
+                                     amarres de amor diseñados para restaurar y fortalecer los lazos 
+                                     emocionales con tu pareja. Utilizando antiguas técnicas y conocimientos 
+                                     esotéricos, podemos ayudarte a encontrar el amor perdido o mejorar tu 
+                                     relación actual. </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card bg-transparent border my-3 my-md-0">
+                            <img src="assets/imgs/ritualc.jpg" alt="http://www.amoryluz.com/" class="rounded-0 card-img-top mg-responsive">
+                            <div class="card-body">
+                                <h1 class="text-center mb-4"><a href="#" class="badge badge-primary">$10 consulta</a></h1>
+                                <h4 class="pt20 pb20">Rituales para el Amor Eterno</h4>
+                                <p class="text-white">Descubre los secretos de los rituales para el amor
+                                     eterno que han sido transmitidos a lo largo de generaciones. Desde
+                                      velas de amor hasta baños de atracción, te guiaremos paso a paso
+                                       en la realización de rituales que fomentarán la durabilidad y la
+                                        pasión en tu relación. </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card bg-transparent border my-3 my-md-0">
+                            <img src="assets/imgs/rituald.jpg" alt="http://www.amoryluz.com/" class="rounded-0 card-img-top mg-responsive">
+                            <div class="card-body">
+                                <h1 class="text-center mb-4"><a href="#" class="badge badge-primary">$10 consulta</a></h1>
+                                <h4 class="pt20 pb20">Atracción Suerte y Prosperidad</h4>
+                                <p class="text-white">¿Estás buscando un impulso en tu vida financiera o en tus proyectos personales? Nuestros
+                                     servicios esotéricos incluyen rituales y hechizos para atraer la suerte y la prosperidad a tu vida. 
+                                     Desde amuletos de la suerte hasta baños de prosperidad, te ayudaremos a abrir los caminos hacia el
+                                      éxito y la abundancia.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="tab-pane fade" id="juices" role="tabpanel" aria-labelledby="pills-profile-tab">
+                <div class="row">
+                    <div class="col-md-4 my-3 my-md-0">
+                        <div class="card bg-transparent border">
+                            <img src="assets/imgs/posionb.jpg" alt="http://www.amoryluz.com/" class="rounded-0 card-img-top mg-responsive">
+                            <div class="card-body">
+                                <h1 class="text-center mb-4"><a href="#" class="badge badge-primary">$80</a></h1>
+                                <h4 class="pt20 pb20">Pasión Ardiente</h4>
+                                <p class="text-white">¿Quieres agregar un toque de fuego a tu relación? Nuestra poción de pasión ardiente está diseñada para avivar la llama del deseo y despertar la pasión en tu pareja. Con ingredientes cuidadosamente seleccionados y cargados con energía positiva, esta poción te ayudará a crear momentos íntimos inolvidables. </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 my-3 my-md-0">
+                        <div class="card bg-transparent border">
+                            <img src="assets/imgs/posion.jpg" alt="http://www.amoryluz.com/" class="rounded-0 card-img-top mg-responsive">
+                            <div class="card-body">
+                                <h1 class="text-center mb-4"><a href="#" class="badge badge-primary">$75</a></h1>
+                                <h4 class="pt20 pb20">Vínculo Emocional</h4>
+                                <p class="text-white">¿Sientes que la conexión emocional en tu relación necesita un impulso? Nuestra poción de vínculo emocional está especialmente formulada para fortalecer los lazos afectivos entre tú y tu ser amado. Con cada gota, sentirás cómo se profundiza la conexión emocional y se fortalece el amor compartido. </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 my-3 my-md-0">
+                        <div class="card bg-transparent border">
+                            <img src="assets/imgs/posionc.jpg" alt="http://www.amoryluz.com/" class="rounded-0 card-img-top mg-responsive">
+                            <div class="card-body">
+                                <h1 class="text-center mb-4"><a href="#" class="badge badge-primary">$75</a></h1>
+                                <h4 class="pt20 pb20">Atracción Irresistible</h4>
+                                <p class="text-white">¿Deseas atraer a esa persona especial hacia ti? Nuestra poción de atracción irresistible está diseñada para aumentar tu carisma y magnetismo personal, haciendo que seas irresistible a los ojos del ser amado. ¡Prepárate para ser el centro de atención y despierta el interés de esa persona que tanto te gusta!</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- REVIEWS Section  -->
+    <div id="testmonial" class="container-fluid wow fadeIn bg-dark text-light has-height-lg middle-items">
+        <h2 class="section-title my-5 text-center">Testimonios</h2>
+        <div class="row mt-3 mb-5">
+            <div class="col-md-4 my-3 my-md-0">
+                <div class="testmonial-card">
+                    <h3 class="testmonial-title">Ana Correa</h3>
+                    <h6 class="testmonial-subtitle">Ama de casa</h6>
+                    <div class="testmonial-body">
+                        <p>"Estoy infinitamente agradecida con los servicios de amarres de amor de esta 
+                            página esotérica. Después de años de luchar por mantener viva la chispa en
+                             mi relación, decidí probar un amarre de amor como último recurso.
+                              ¡Y funcionó! Desde entonces, mi pareja y yo nos sentimos más unidos que
+                               nunca, y nuestro amor solo sigue creciendo. ¡Gracias por ayudarme a
+                                encontrar el amor eterno que tanto anhelaba!"</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 my-3 my-md-0">
+                <div class="testmonial-card">
+                    <h3 class="testmonial-title">Camilo Torres</h3>
+                    <h6 class="testmonial-subtitle">Abogado</h6>
+                    <div class="testmonial-body">
+                        <p>"Nunca creí en la magia hasta que experimenté los resultados de los rituales para
+                             el amor eterno de esta página. Después de una ruptura dolorosa, estaba desesperado
+                              por recuperar a mi ex pareja. Los rituales que seguí fueron poderosos y, lo más
+                               importante, efectivos. Ahora estamos juntos de nuevo y más enamorados que nunca.
+                                ¡Gracias por devolverme la esperanza y el amor que pensé que había perdido para siempre!"</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 my-3 my-md-0">
+                <div class="testmonial-card">
+                    <h3 class="testmonial-title">Martha Camargo</h3>
+                    <h6 class="testmonial-subtitle">Estilista</h6>
+                    <div class="testmonial-body">
+                        <p>"Los rituales de amor eterno de esta página realmente cambiaron mi vida. Después de una serie
+                             de relaciones fallidas, estaba lista para rendirme en el amor. Pero decidí darle una última
+                              oportunidad a través de un ritual de amor eterno. ¡Y qué diferencia ha hecho! Mi relación
+                               actual es más profunda y significativa de lo que nunca hubiera imaginado posible. ¡Gracias por ayudarme a encontrar el amor verdadero y duradero que siempre soñé!"</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- CONTACT Section  -->
+    <div id="contact" class="container-fluid bg-dark text-light border-top wow fadeIn">
+        <div class="row">
+            <div class="col-md-6 px-5 has-height-lg middle-items">            
+                   <img src="assets/imgs/ritualvela.jpg" alt="">           
+            </div>
+            <div class="col-md-6 px-5 has-height-lg middle-items">
+                <h3>¡Contáctanos Hoy!</h3>
+                <p>No esperes más para transformar tu vida y alcanzar la felicidad que tanto deseas. Contáctanos hoy mismo para descubrir cómo nuestros servicios esotéricos
+                     pueden ayudarte a encontrar el amor verdadero, la suerte y la prosperidad que te mereces.</p>
+                <div class="text-muted">                    
+                    <p><span class="ti-support pr-3"></span> (+1) 810-360-1459</p>
+                    <p><span class="ti-email pr-3"></span>amoryluz204@gmail.com</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- page footer  -->
+    <div class="container-fluid bg-dark text-light has-height-md middle-items border-top text-center wow fadeIn">
+        <div class="row">
+            <div class="col-sm-4">
+                <h3>E mail</h3>
+                <P class="text-muted">amoryluz@gmail.com</P>
+            </div>
+            <div class="col-sm-4">
+                <h3>Whatsapp</h3>
+                <P class="text-muted">(+1)810-360-1459</P>
+            </div>
+            <div class="col-sm-4">
+                <h3>Facebook</h3>
+                <P class="text-muted">amor y luz</P>
+            </div>
+        </div>
+    </div>
+    <div class="bg-dark text-light text-center border-top wow fadeIn">
+        <p class="mb-0 py-3 text-muted small">&copy; Copyright <script>document.write(new Date().getFullYear())</script> Amor y Luz <i class="ti-heart text-danger"></i> <a href="http://.com">Remoltech</a></p>
+    </div>
+    <!-- end of page footer -->
+
+	<!-- core  -->
+    <script src="assets/vendors/jquery/jquery-3.4.1.js"></script>
+    <script src="assets/vendors/bootstrap/bootstrap.bundle.js"></script>
+
+    <!-- bootstrap affix -->
+    <script src="assets/vendors/bootstrap/bootstrap.affix.js"></script>
+
+    <!-- wow.js -->
+    <script src="assets/vendors/wow/wow.js"></script>
+    
+    <!-- google maps -->
+    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCtme10pzgKSPeJVJrG1O3tjR6lk98o4w8&callback=initMap"></script>
+
+    <!-- FoodHut js -->
+    <script src="assets/js/foodhut.js"></script>
+
+</body>
 </html>
